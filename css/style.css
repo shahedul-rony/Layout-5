@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: aquamarine;
+    color: black;
+    height: 200px;
+    text-align: center;
+}
+.grandparent{
+    overflow: hidden;
+    height: 600px;
+}
+.parentOne{
+    height: 600px;
+    float: left;
+    overflow: hidden;
+    width: 50%;
+}
+.topOne{
+    background-color: brown;
+    color: white;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.bottomOne{
+    background-color: rgb(31, 255, 162);
+    color: white;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.parentTwo{
+    height: 600px;
+    float: right;
+    overflow: hidden;
+    width: 50%;
+}
+.topTwo{
+    background-color: rgb(26, 59, 247);
+    color: white;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.bottomTwo{
+    background-color: rgb(231, 12, 158);
+    color: white;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.contentOne{
+    background-color: yellow;
+    color: black;
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.contentTwo{
+    background-color: rgb(255, 145, 0);
+    color: rgb(255, 255, 255);
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.contentThree{
+    background-color: rgb(0, 175, 146);
+    color: rgb(255, 255, 255);
+    height: 300px;
+    width: 33.33%;
+    float: right;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(0, 255, 13);
+    color: rgb(255, 255, 255);
+    height: 300px;
+}
